@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const HomePage = () => {
     return (
       <div className="bg-darkBlue h-screen">
@@ -7,7 +8,7 @@ const HomePage = () => {
             <img src="./src/assets/images/scissor.png" className="cursor-pointer" alt="scissor" />
          </div>
         <div className="text-center my-20">
-        <button className="button-style">Let's play</button>
+        <Link to={'/game'} className="button-style button"><span > Let's play</span> </Link>
         </div>
       </div>
     );

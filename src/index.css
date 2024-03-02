@@ -20,5 +20,33 @@
 }
 
 .button-style{
-  @apply text-center font-semibold text-xl text-white exo-regular  bg-yellow hover:bg-[#f19b21] px-10 py-2 rounded-md;
+  @apply text-center font-semibold text-xl text-white exo-regular  bg-yellow hover:bg-[#f19b21] px-10 py-3 rounded-md;
+}
+.button {
+  transition: all 0.5s;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\25B6';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
