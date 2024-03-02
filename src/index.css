@@ -7,9 +7,18 @@
   font-weight: 400;
   font-style: normal;
 }
+.exo-regular {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.button-style{
+  @apply text-center font-semibold text-xl text-white exo-regular  bg-yellow hover:bg-[#f19b21] px-10 py-2 rounded-md;
 }
