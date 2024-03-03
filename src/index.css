@@ -50,3 +50,10 @@
   opacity: 1;
   right: 0;
 }
+
+.game-move-card:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  transition: 0.2s;
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
