@@ -17,7 +17,7 @@ const GamePage = () => {
          </div>
          <div className="text-2xl text-white anton-regular text-center mt-10">Selected: <span className="font-medium text-yellow">{selectedMove}</span></div>
         <div className="text-center my-20">
-        <Link to={'/gameresult'} className="button-style play-button">Play</Link>
+        <Link to={`/gameresult/${selectedMove}`} className="button-style play-button">Play</Link>
         </div>
       </div>
     );
