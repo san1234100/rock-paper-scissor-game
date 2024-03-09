@@ -10,11 +10,11 @@ import GameResult from "./components/GameResult.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/rock-paper-scissor-game",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/rock-paper-scissor-game",
         element: <HomePage />,
       },
       {
